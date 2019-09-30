@@ -1,0 +1,36 @@
+{
+  "name": "@minimalist-ui/react",
+  "version": "1.0.0",
+  "description": "Components with minimalist design built in react",
+  "main": "src/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darlanmendonca/minimalist-ui-react.git"
+  },
+  "keywords": [
+    "components",
+    "ui-kit",
+    "design-system",
+    "minimalist"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://darlanmendonca.github.io)",
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/minimalist-ui-react/issues"
+  },
+  "homepage": "https://github.com/darlanmendonca/minimalist-ui-react#readme",
+  "dependencies": {
+    "react": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-knobs": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "babel-loader": "^8.0.6"
+  }
+}
