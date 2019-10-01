@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/darlanmendonca/minimalist-ui-react#readme",
   "dependencies": {
+    "@emotion/styled": "^10.0.17",
     "react": "^16.10.1"
   },
   "devDependencies": {

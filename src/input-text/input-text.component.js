@@ -1,5 +1,6 @@
 import React, { useState, useEffect, createRef, useContext } from 'react'
 import { FormContext } from '../form/form.context'
+import { Label, Input } from './input-text.style'
 
 export const InputText = props => {
   const { setContext, submited } = useContext(FormContext)
@@ -43,15 +44,15 @@ export const InputText = props => {
 
   return (
     <>
-      <label
-        isselected={ isSelected || value }
+      <Label
+        isSelected={ isSelected || value }
         disabled={ props.disabled }
         validity={ validity }
       >
         { label }
-      </label>
+      </Label>
 
-      <input
+      <Input
         ref={ input }
         type={ props.type }
         defaultValue={ props.value }

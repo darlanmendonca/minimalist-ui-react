@@ -10,11 +10,11 @@ storiesOf('components', module)
       label={ text('label', 'label') }
       value={ text('value', '') }
       name={ text('name', 'email') }
-      placeholder={ text('placeholder', 'placeholder') }
+      placeholder={ text('placeholder', '') }
       readOnly={ boolean('readOnly', false) }
       disabled={ boolean('disabled', false) }
       autoFocus={ boolean('autoFocus', false) }
       pattern={ text('pattern') }
-      autoComplete={ select('autoComplete', ['off', 'on'], 'off') }
+      autoComplete={ select('autoComplete', ['off', 'on'], 'on') }
     />
   ))
